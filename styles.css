@@ -1,0 +1,36 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(to right top, #e0aaff, #7b2cbf, #240046);
+    color: #2b2839;
+    border-bottom: thick double #10002b;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #5a189a;
+}
+
+a{
+    text-decoration: none;
+    color: #10002b;
+}
+
+a:hover{
+    color: whitesmoke;
+}
